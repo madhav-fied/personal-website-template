@@ -1,0 +1,9 @@
+{
+    "projectName": "Lorem Ipsum",
+    "tools": [
+        "Tool A",
+        "Tool B",
+        "Tool C"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque tellus mollis euismod gravida. Nulla eros leo, gravida id consequat id, blandit ac tellus. Morbi laoreet risus a odio efficitur scelerisque."
+}

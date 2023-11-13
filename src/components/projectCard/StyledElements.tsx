@@ -2,12 +2,10 @@ import styled from 'styled-components';
 
 const styledDiv = styled.div``;
 
-export const ProjectCardContainer = styled(styledDiv)`
+export const StyledProjectCard = styled(styledDiv)`
     padding: 16px;
     background-color: black;
     color: white;
-    Height: 33%;
-    Width: 33%;
     border-radius: 8px;
     transition: transform .3s;
     &:hover {

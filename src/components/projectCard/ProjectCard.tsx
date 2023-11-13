@@ -1,13 +1,12 @@
-import { ProjectCardContainer } from "./StyledElements"
+import { ProjectCardProps } from "./ProjectCardProps"
+import { StyledProjectCard } from "./StyledElements"
 
-export const ProjectCard = () => {
-
-
+export const ProjectCard = ({projectName, tools, description}:ProjectCardProps) => {
     return (
-        <ProjectCardContainer className="project-card-container"> 
-            <div>Projet Name</div>
-            <div>Tool A | Tool B | Tool C </div>
-            <div>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget justo dictum nulla sagittis fermentum nec a diam. Quisque semper, nisl nec efficitur ullamcorper, turpis nibh tempus lacus, vitae viverra massa tellus sed neque. Morbi a lacus eu ipsum venenatis lacinia. Sed eros lacus, rutrum non posuere tempus, semper eu orci.</div>
-        </ProjectCardContainer>
+        <StyledProjectCard className="project-card-container"> 
+            <div>{projectName}</div>
+            {tools && <div>Tool A | Tool B | Tool C</div>}
+            <div>{description}</div>
+        </StyledProjectCard>
     )
 }
